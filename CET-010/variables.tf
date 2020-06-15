@@ -13,9 +13,6 @@ variable "applicationName" {
   description = "AWS code deploy application name"
   default     = "codedeployRomanyApp"
 }
-variable "snsTopicARN"{
-  default = "t"
-}
 
 
 #modules variables
